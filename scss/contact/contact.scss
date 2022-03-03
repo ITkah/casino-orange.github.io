@@ -1,0 +1,65 @@
+.contact_wrap {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 50px;
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .contact_form {
+        padding: 30px 25px;
+        box-shadow: 0 4px 20px rgba(121,132,135,.5);
+        border-radius: 12px;
+        background: #fff;
+    }
+    .contact_form_title {
+        margin-bottom: 15px;
+        font: 700 2rem 'Inter', sans-serif;
+    }
+    input {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 12px 15px;
+        appearance: none;
+        outline: none;
+        border-radius: 10px;
+        border: none;
+        font: 400 1rem 'Inter', sans-serif;
+        background: rgba(113,149,133,.2);
+    }
+    textarea {
+        background: rgba(113,149,133,.2);
+        font: 400 1rem 'Inter', sans-serif;
+        margin-bottom: 10px;
+        width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 12px 15px;
+        appearance: none;
+        outline: none;
+        border-radius: 10px;
+        border: none;
+        height: 150px;
+        resize: none;
+        box-sizing: border-box;
+    }
+    button {
+        width: 100%;
+        box-sizing: border-box;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 40px;
+        box-sizing: border-box;
+        font: 500 1.125rem 'Inter', sans-serif;
+        padding: 15px 25px;
+        border: none;
+        appearance: none;
+        color: #fff;
+        cursor: pointer;
+        margin: 0 auto;
+        background: #e8a000;
+    }
+}

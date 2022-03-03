@@ -55,6 +55,61 @@ main {
 a {
   outline: none; }
 
+.margin {
+  margin-bottom: 50px; }
+  @media (max-width: 990px) {
+    .margin {
+      margin-bottom: 35px; } }
+
+.text_simple h1 {
+  margin-bottom: 10px;
+  font: 700 2rem 'Inter', sans-serif; }
+
+.text_simple h2 {
+  margin-bottom: 10px;
+  font: 700 1.125rem 'Inter', sans-serif; }
+
+.text_simple h3 {
+  margin-bottom: 10px;
+  font: 700 1.125rem 'Inter', sans-serif; }
+
+.text_simple h4 {
+  margin-bottom: 10px;
+  font: 700 1.125rem 'Inter', sans-serif; }
+
+.text_simple h5 {
+  margin-bottom: 10px;
+  font: 700 1.125rem 'Inter', sans-serif; }
+
+.text_simple p {
+  margin-bottom: 10px;
+  font: 400 1rem/22px 'Inter', sans-serif; }
+
+.text_simple a {
+  font: 400 1rem/22px 'Inter', sans-serif;
+  color: #e8a000;
+  text-decoration: underline; }
+
+.bredcrumbs {
+  margin-top: 30px; }
+  .bredcrumbs ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .bredcrumbs ul img {
+      margin: 0 10px; }
+    .bredcrumbs ul a {
+      color: #e8a000;
+      font: 400 1rem 'Inter', sans-serif; }
+    .bredcrumbs ul li {
+      color: #000;
+      font: 400 1rem 'Inter', sans-serif; }
+
 header {
   background: #e8a000; }
   @media (max-width: 990px) {
@@ -569,6 +624,76 @@ header {
   @media (max-width: 576px) {
     .casino_more_btn {
       max-width: 100%; } }
+
+.contact_wrap {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 50px; }
+  @media (max-width: 990px) {
+    .contact_wrap {
+      grid-template-columns: 1fr;
+      grid-gap: 20px; } }
+  .contact_wrap .contact_form {
+    padding: 30px 25px;
+    -webkit-box-shadow: 0 4px 20px rgba(121, 132, 135, 0.5);
+            box-shadow: 0 4px 20px rgba(121, 132, 135, 0.5);
+    border-radius: 12px;
+    background: #fff; }
+  .contact_wrap .contact_form_title {
+    margin-bottom: 15px;
+    font: 700 2rem 'Inter', sans-serif; }
+  .contact_wrap input {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font: 400 1rem 'Inter', sans-serif;
+    background: rgba(113, 149, 133, 0.2); }
+  .contact_wrap textarea {
+    background: rgba(113, 149, 133, 0.2);
+    font: 400 1rem 'Inter', sans-serif;
+    margin-bottom: 10px;
+    width: 100%;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    height: 150px;
+    resize: none;
+    box-sizing: border-box; }
+  .contact_wrap button {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font: 500 1.125rem 'Inter', sans-serif;
+    padding: 15px 25px;
+    border: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    background: #e8a000; }
 
 footer {
   background: #719585; }
