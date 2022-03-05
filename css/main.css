@@ -489,6 +489,7 @@ header {
   grid-gap: 20px; }
 
 .casino_item {
+  background: #fff;
   border-radius: 12px;
   padding: 22px 40px;
   -webkit-box-align: center;
@@ -624,6 +625,95 @@ header {
   @media (max-width: 576px) {
     .casino_more_btn {
       max-width: 100%; } }
+
+.catalog .catalog_title {
+  margin-bottom: 20px;
+  font: 700 2rem 'Inter', sans-serif; }
+  @media (max-width: 990px) {
+    .catalog .catalog_title {
+      font: 700 1.5rem 'Inter', sans-serif; } }
+
+.catalog_main {
+  height: auto; }
+  .catalog_main .container {
+    padding: 65px 0; }
+
+.alphabet-filter {
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media (max-width: 990px) {
+    .alphabet-filter {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; } }
+  .alphabet-filter li {
+    color: #000;
+    font: 400 1.125rem 'Inter', sans-serif; }
+  .alphabet-filter .actives {
+    color: #719585; }
+
+.catalog_wrap {
+  grid-gap: 20px;
+  -webkit-columns: 3 200px;
+     -moz-columns: 3 200px;
+          columns: 3 200px; }
+  @media (max-width: 990px) {
+    .catalog_wrap {
+      grid-template-columns: 1fr;
+      display: grid;
+      grid-gap: 5px; } }
+  .catalog_wrap .catalog_item {
+    background: #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0 -3px 0 #719585, 0 4px 20px rgba(121, 132, 135, 0.1);
+            box-shadow: 0 -3px 0 #719585, 0 4px 20px rgba(121, 132, 135, 0.1); }
+    .catalog_wrap .catalog_item .catalog_item_letter {
+      margin-bottom: 20px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      font: 400 1.25rem 'Inter', sans-serif;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      color: #fff;
+      background: #719585; }
+    .catalog_wrap .catalog_item .catalog_item_link a {
+      color: #000;
+      text-decoration: underline;
+      margin-bottom: 10px;
+      display: block;
+      font: 400 1rem 'Inter', sans-serif; }
+    .catalog_wrap .catalog_item .catalog_item_link a:last-child {
+      margin: 0; }
 
 .contact_wrap {
   display: grid;
